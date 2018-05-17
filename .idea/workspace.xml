@@ -23,12 +23,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Friend.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Friend.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task05/task0509/Friend.java">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="41" selection-start-column="33" selection-end-column="41" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="Условие.jrtc" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Условие.jrtc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task05/task0509/Условие.jrtc">
           <provider selected="true" editor-type-id="EditorTypeId" />
         </entry>
@@ -593,7 +597,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -603,9 +606,9 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32946146" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3284055" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3284055" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3284055" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3284055" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="right" id="Designer" order="3" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1890625" />
@@ -937,11 +940,15 @@
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Валидация">
       <provider selected="true" editor-type-id="EditorTypeId" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task05/task0509/Friend.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task05/task0509/Условие.jrtc">
       <provider selected="true" editor-type-id="EditorTypeId" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task05/task0509/Friend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="41" selection-start-column="33" selection-end-column="41" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
