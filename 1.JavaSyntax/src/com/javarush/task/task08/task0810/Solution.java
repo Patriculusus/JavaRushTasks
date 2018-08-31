@@ -6,7 +6,18 @@ import java.util.LinkedList;
 import java.util.List;
 
 /* 
-Время для 10 тысяч вызовов get
+Измерить, сколько времени занимает 10 тысяч вызовов get для каждого списка.
+Метод getTimeMsOfGet должен вернуть время своего исполнения в миллисекундах.
+
+
+Требования:
+1. Программа должна выводить числа на экран.
+2. Метод main должен вызывать метод getTimeMsOfGet только два раза.
+3. Метод main должен вызывать метод fill только два раза.
+4. Метод fill(List list) должен вставлять 10 тысяч элементов в список.
+5. Метод get10000(List list) должен производить 10 тысяч вызовов get для списка.
+6. Метод getTimeMsOfGet должен вызывать метод get10000(List list) только один раз.
+7. Метод getTimeMsOfGet должен вернуть время в миллисекундах, которое занимает 10 тысяч вызовов get для списка.
 */
 
 public class Solution {
@@ -23,11 +34,11 @@ public class Solution {
     }
 
     public static long getTimeMsOfGet(List list) {
-        //напишите тут ваш код
+        Date before = new Date();
 
         get10000(list);
 
-        //напишите тут ваш код
+        return new Date().getTime() - before.getTime();
 
     }
 
