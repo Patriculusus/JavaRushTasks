@@ -10,7 +10,7 @@ import java.io.InputStreamReader;
 public class Solution {
     public static void main(String[] args) throws Exception {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        String[] array = new String[20];
+        String[] array = new String[4];
         for (int i = 0; i < array.length; i++) {
             array[i] = reader.readLine();
         }
@@ -23,7 +23,15 @@ public class Solution {
     }
 
     public static void sort(String[] array) {
-        //напишите тут ваш код
+        for(int i = 0; i< array.length -1; i++){
+            for(int j = array.length -2; j>0; j--) {
+                if (!isGreaterThan(array[j], array[j + 1])) {
+                    String buff = array[j];
+                    array[j] = array[j + 1];
+                    array[j + 1] = buff;
+                }
+            }
+        }
     }
 
     //Метод для сравнения строк: 'а' больше чем 'b'
