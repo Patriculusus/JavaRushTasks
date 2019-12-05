@@ -14,5 +14,12 @@ public class Solution {
 
     public static void main(String[] args) throws Exception {
         //напишите тут ваш код
+        String date = new BufferedReader(new InputStreamReader(System.in)).readLine();
+        SimpleDateFormat s = new SimpleDateFormat("yyyy-MM-dd");
+
+        Date y = s.parse(date);
+        SimpleDateFormat a = new SimpleDateFormat("MMM dd, yyyy", Locale.ENGLISH);
+
+        System.out.println(a.format(y).toUpperCase());
     }
 }

@@ -1,7 +1,5 @@
 package com.javarush.task.task08.task0817;
 
-import jdk.nashorn.internal.ir.WhileNode;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;

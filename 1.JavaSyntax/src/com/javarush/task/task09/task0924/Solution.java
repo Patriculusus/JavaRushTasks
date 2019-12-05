@@ -15,6 +15,9 @@ public class Solution {
 
     public static void main(String[] args) {
         // напишите тут ваш код
+        wolf.ate.add(grandmother);
+        wolf.ate.add(hood);
+        woodman.killed.add(wolf);
     }
 
     // Красная шапочка
@@ -25,7 +28,7 @@ public class Solution {
     public static class Grandmother extends StoryItem {
     }
 
-    // Пирожек
+    // Пирожок
     public static class Patty extends StoryItem {
     }
 
@@ -39,6 +42,6 @@ public class Solution {
 
     public static abstract class StoryItem {
         public ArrayList<StoryItem> killed = new ArrayList<>();
-        public ArrayList<StoryItem> eaten = new ArrayList<>();
+        public ArrayList<StoryItem> ate = new ArrayList<>();
     }
 }

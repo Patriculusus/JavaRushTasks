@@ -4,7 +4,6 @@
     <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/JavaRush/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaRush/.idea/workspace.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -54,14 +54,20 @@
     </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="JavaSyntax/src/com/javarush/task/task06/task0622/Solution.java&#9;FILE&#9;file://D:/JavaRushTasks/1.JavaSyntax/src/com/javarush/task/task06/task0622/Solution.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544715853606" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TestFreamework/B2B/qa-contentinn" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -69,6 +75,9 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
@@ -79,19 +88,7 @@
       <recent name="D:\intellijSandbox\JavaRushTasks" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.Solution (1)">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -99,26 +96,12 @@
       </method>
     </configuration>
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task09.task0918.Solution" />
-      <module name="1.JavaSyntax" />
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task15.task1516.Solution" />
+      <module name="2.JavaCore" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task09.task0918.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task09.task0919.Solution" />
-      <module name="1.JavaSyntax" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javarush.task.task09.task0919.*" />
+          <option name="PATTERN" value="com.javarush.task.task15.task1516.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +110,12 @@
       </method>
     </configuration>
     <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task09.task0920.Solution" />
-      <module name="1.JavaSyntax" />
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task15.task1511.Solution" />
+      <module name="2.JavaCore" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task09.task0920.*" />
+          <option name="PATTERN" value="com.javarush.task.task15.task1511.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +124,26 @@
       </method>
     </configuration>
     <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task09.task0921.Solution" />
-      <module name="1.JavaSyntax" />
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task15.task1512.Solution" />
+      <module name="2.JavaCore" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task09.task0921.*" />
+          <option name="PATTERN" value="com.javarush.task.task15.task1512.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task15.task1515.Solution" />
+      <module name="2.JavaCore" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javarush.task.task15.task1515.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,12 +152,12 @@
       </method>
     </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task09.task0925.Solution" />
-      <module name="1.JavaSyntax" />
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task15.task1514.Solution" />
+      <module name="2.JavaCore" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task09.task0925.*" />
+          <option name="PATTERN" value="com.javarush.task.task15.task1514.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,6 +203,7 @@
       <setting name="vmparams" value="" />
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
+      <setting name="grailsApplicationRoot" value="" />
       <setting name="launchBrowser" value="true" />
       <setting name="launchBrowserUrl" value="" />
       <setting name="depsClasspath" value="false" />
@@ -238,23 +236,34 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (1)" />
-      <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution (4)" />
       <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Solution (5)" />
+      <item itemvalue="Application.Solution (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (1)" />
+        <item itemvalue="Application.Solution (5)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution (3)" />
-        <item itemvalue="Application.Solution (2)" />
-        <item itemvalue="Application.Solution (1)" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="project-level" UseSingleDictionary="true" />
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -307,7 +316,35 @@
       <workItem from="1547458094335" duration="595000" />
       <workItem from="1548056427817" duration="598000" />
       <workItem from="1548072597123" duration="596000" />
-      <workItem from="1565087669850" duration="1198000" />
+      <workItem from="1565087669850" duration="1910000" />
+      <workItem from="1565103670660" duration="68000" />
+      <workItem from="1565103779698" duration="4739000" />
+      <workItem from="1566479197308" duration="374000" />
+      <workItem from="1566479630086" duration="24596000" />
+      <workItem from="1567006685388" duration="3324000" />
+      <workItem from="1567089847317" duration="370000" />
+      <workItem from="1567423929201" duration="15907000" />
+      <workItem from="1568295351052" duration="2672000" />
+      <workItem from="1568382102874" duration="55000" />
+      <workItem from="1568382245889" duration="598000" />
+      <workItem from="1568706497657" duration="1196000" />
+      <workItem from="1568723618809" duration="5503000" />
+      <workItem from="1568884012199" duration="899000" />
+      <workItem from="1568968334545" duration="2400000" />
+      <workItem from="1571989566006" duration="370000" />
+      <workItem from="1571990062440" duration="225000" />
+      <workItem from="1571990327261" duration="599000" />
+      <workItem from="1572253143186" duration="595000" />
+      <workItem from="1572853185977" duration="763000" />
+      <workItem from="1572862987115" duration="597000" />
+      <workItem from="1573030792702" duration="1127000" />
+      <workItem from="1573554479815" duration="3942000" />
+      <workItem from="1574065758303" duration="4413000" />
+      <workItem from="1574427331906" duration="5064000" />
+      <workItem from="1574672136985" duration="4451000" />
+      <workItem from="1575023563470" duration="17121000" />
+      <workItem from="1575367730260" duration="1201000" />
+      <workItem from="1575376803596" duration="5503000" />
     </task>
     <servers />
   </component>
@@ -328,7 +365,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -346,5 +385,47 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1575294353964">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1575294353964" />
+    <state x="2685" y="248" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1575033555035" />
+    <state width="1877" height="239" key="GridCell.Tab.0.bottom" timestamp="1575474886472">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1575474886472" />
+    <state width="1877" height="251" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1575031471230" />
+    <state width="1877" height="239" key="GridCell.Tab.0.center" timestamp="1575474886472">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="239" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1575474886472" />
+    <state width="1877" height="251" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1575031471229" />
+    <state width="1877" height="239" key="GridCell.Tab.0.left" timestamp="1575474886471">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="239" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1575474886471" />
+    <state width="1877" height="251" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1575031471229" />
+    <state width="1877" height="239" key="GridCell.Tab.0.right" timestamp="1575474886472">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="239" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1575474886472" />
+    <state width="1877" height="251" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1575031471230" />
+    <state x="2610" y="305" key="extract.method.dialog" timestamp="1575029990814">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2610" y="305" key="extract.method.dialog/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1575029990814" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task10/task1001/Solution.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
